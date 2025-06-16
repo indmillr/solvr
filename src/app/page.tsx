@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen w-full bg-[#2c2c2c] text-[#2c2c2c] overflow-x-hidden">
-      <div className="flex flex-col items-center justify-center w-full bg-[#E6E0D6] border-y-2 border-[#07989b] py-16">
+<div className="flex items-center justify-center min-h-screen w-full bg-[#2c2c2c] text-[#2c2c2c]">
+  <div className="h-[66vh] flex flex-col items-center justify-center w-full border-y-2 border-[#07989b] py-16 bg-[#E6E0D6]">
         <div className="px-10 pb-20 rounded-2xl border-x border-[#7f7f7f]">
           <div className="flex flex-col items-center text-xl font-bold">
             <Image
@@ -14,7 +14,7 @@ export default function Home() {
             />
             <span className="-mt-10 font-syne">SOLVR Development</span>
           </div>
-          <div className="flex flex-col w-[90vw] max-w-[350px] mt-6 justify-center items-center font-syne text-center">
+          <div className="flex flex-col max-w-[350px] mt-6 justify-center items-center font-syne text-center">
             <span className='mb-2'>Comprehensive, full-service solutions.</span>
             Specializing in custom websites and web applications.
             <a
@@ -26,6 +26,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
