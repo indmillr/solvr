@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-syne-mono: 'Syne Mono', monospace;
 }
 
 @theme inline {
@@ -17,6 +18,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.font-syne {
+  font-family: var(--font-syne-mono);
 }
 
 body {
